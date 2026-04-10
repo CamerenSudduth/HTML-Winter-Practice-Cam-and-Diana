@@ -1,0 +1,88 @@
+body{
+  margin: -1px;
+  padding: 10;
+  background-color: #FFEEB7;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: minmax(100px, auto);
+  border:4px solid #ffe692;
+}
+
+section{
+  margin: 5px;
+  width: 30rem;
+  background-color: #E3b855;
+  border-radius: 25px;
+  border:2px solid #c99f3d;
+}
+
+h2{
+  padding-left: 20px; 
+
+}
+
+#s2h2, #s3h2{
+  text-decoration: underline;
+}
+
+#s1{
+  grid-column: auto;
+  grid-row: auto;
+  height: 11rem;
+}
+#s2{
+  grid-column: auto;
+  grid-row: auto;
+  height: 12rem;
+}
+#s3{
+  grid-column: auto;
+  grid-row: auto;
+  height: 12rem;
+}
+
+.textdiv{
+    margin-right: 50px;
+}
+
+*{
+ 
+  font-family: 'Comic Sans MS' , cursive ;
+}
+
+.photos{
+    padding-top: 10%;
+    background-image: url(Images/wood-board-background.jpg);
+    background-size: contain;
+    border: 2px solid #54431d ;
+}
+#gamingpic{
+    width: 323px;
+    height: 200px;
+    background-image: url(Images/gamingpic.jpeg);
+}
+#cafepic{
+    width: 323px;
+    height: 200px;
+    background-image: url(Images/cafepic.jpeg);
+}
+#parkpic{
+    width: 323px;
+    height: 200px;
+    background-image: url(Images/parkpic.jpeg);
+}
+
+#halloweenpic{
+    width: 323px;
+    height: 200px;
+    background-image: url(Images/mappic.jpeg);
+}
+
+#gamingpic, #cafepic, #parkpic, #mappic, #halloweenpic {
+    border: 4px solid #fffcf2;
+    background-size: cover;       /* Ensures the photo fills the box */
+    background-position: center;  /* Centers the photo */
+    margin: 5px;
+    display: inline-block;        /* Allows them to sit side-by-side */
+}
+
